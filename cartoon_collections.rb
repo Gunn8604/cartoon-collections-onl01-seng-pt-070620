@@ -17,7 +17,6 @@ def find_the_cheese(array)
   array.each do |snack|
     cheese_types.find do |cheese|
       return snack if snack == cheese
-      return nil if array.!include?(cheese)
     end
   end
 end
