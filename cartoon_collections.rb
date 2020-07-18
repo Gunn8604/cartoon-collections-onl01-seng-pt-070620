@@ -18,6 +18,6 @@ def find_the_cheese(array)
     cheese_types.find do |cheese|
       return snack if snack == cheese
     end
-    nil 
   end
+  nil 
 end
